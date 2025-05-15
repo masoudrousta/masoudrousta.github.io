@@ -1,0 +1,91 @@
+/* استایل متحول‌کننده و حرفه‌ای برای برند شخصی مسعود روستا */
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600&display=swap');
+
+body {
+  font-family: 'Vazirmatn', Tahoma, sans-serif;
+  direction: rtl;
+  background-color: #f0f2f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+}
+
+header {
+  background: linear-gradient(90deg, #0052cc, #007bff);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 0 0 32px 32px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+h2 {
+  color: #0052cc;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+section {
+  background-color: #fff;
+  padding: 30px;
+  margin: 30px 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+ul {
+  list-style-type: disc;
+  padding-right: 20px;
+}
+
+ul li {
+  margin-bottom: 12px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fafafa;
+  font-size: 14px;
+  color: #777;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+
+  section {
+    margin: 20px 10px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
